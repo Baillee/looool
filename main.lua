@@ -31,7 +31,7 @@ game:GetService("RunService").Heartbeat:connect(function(step)if flying and c an
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("Dlone.Dev | Arsenal | v1 ", "BlueTheme")
+local Window = Library.CreateLib("Vision | Arsenal | Beta ", "BlueTheme")
 
 local Welcome = Window:NewTab("Main")
 local MainSection = Welcome:NewSection("Welcome To Vision.Dev | " .. game.Players.LocalPlayer.Name)
